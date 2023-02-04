@@ -26,9 +26,8 @@ driver.implicitly_wait(10)
 # Scrape the job listings
 html = driver.page_source
 soup = BeautifulSoup(html, "html.parser")
-results_list= soup.find("ul", class_="jobsearch-ResultsList css-0")
-job_listings_title=results_list.find_all("li", class_="jobsearch-SerpJobCard")
-
+results_list = soup.find("ul", class_="jobsearch-ResultsList css-0")
+job_listings_title = results_list.find_all("li", class_="jobsearch-SerpJobCard")
 
 # Close the browser
 driver.quit()

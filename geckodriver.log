@@ -1,0 +1,427 @@
+1675519961533	geckodriver	INFO	Listening on 127.0.0.1:22021
+1675519964586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22022" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiletcGE7d"
+1675519964803	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675519964807	Marionette	INFO	Listening on port 22033
+Read port: 22033
+WebDriver BiDi listening on ws://127.0.0.1:22022
+1675519964888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiletcGE7d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22022/devtools/browser/fed9713e-31d3-464b-8e84-bd6ac38b1aea
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675520020272	Marionette	INFO	Stopped listening on port 22033
+Dynamically enable window occlusion 1
+[Parent 38180, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+\\AppData\\Local\\Temp\\rust_mozprofileFqltFY"
+1675519982542	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675519982545	Marionette	INFO	Listening on port 22097
+Read port: 22097
+WebDriver BiDi listening on ws://127.0.0.1:22090
+1675519982633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileFqltFY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22090/devtools/browser/e4834aaf-319a-4424-8d9e-aab59d66dd7a
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675520016530	Marionette	INFO	Stopped listening on port 22097
+Dynamically enable window occlusion 1
+1675520022199	geckodriver	INFO	Listening on 127.0.0.1:22157
+1675520025244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22158" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileD1I7Jd"
+1675520025445	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520025448	Marionette	INFO	Listening on port 22166
+Read port: 22166
+WebDriver BiDi listening on ws://127.0.0.1:22158
+1675520025520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileD1I7Jd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22158/devtools/browser/3093c74f-8021-4354-aeb2-47fcd45a0e20
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675520040186	Marionette	INFO	Stopped listening on port 22166
+Dynamically enable window occlusion 1
+1675520116168	geckodriver	INFO	Listening on 127.0.0.1:22230
+1675520119204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilee5vlwe"
+1675520119408	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520119411	Marionette	INFO	Listening on port 22240
+Read port: 22240
+WebDriver BiDi listening on ws://127.0.0.1:22231
+1675520119485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilee5vlwe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22231/devtools/browser/0c52f2b9-3847-471c-aee2-049216543b08
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675520122468	Marionette	INFO	Stopped listening on port 22240
+Dynamically enable window occlusion 1
+1675520140817	geckodriver	INFO	Listening on 127.0.0.1:22304
+1675520143838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileSW6gyh"
+1675520144046	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520144049	Marionette	INFO	Listening on port 22312
+Read port: 22312
+WebDriver BiDi listening on ws://127.0.0.1:22305
+1675520144120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileSW6gyh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22305/devtools/browser/27b492c8-ee23-4f6d-95b2-d4d324221a0d
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675520147260	Marionette	INFO	Stopped listening on port 22312
+Dynamically enable window occlusion 1
+1675520162471	geckodriver	INFO	Listening on 127.0.0.1:22366
+1675520165516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileHuUOwF"
+1675520165721	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520165725	Marionette	INFO	Listening on port 22374
+Read port: 22374
+WebDriver BiDi listening on ws://127.0.0.1:22367
+1675520165814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileHuUOwF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22367/devtools/browser/9a14db19-c471-41c7-93f9-340a4ee80988
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675520315501	geckodriver	INFO	Listening on 127.0.0.1:22457
+1675520318551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22458" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileDc3Rpk"
+1675520318765	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520318768	Marionette	INFO	Listening on port 22465
+Read port: 22465
+WebDriver BiDi listening on ws://127.0.0.1:22458
+1675520318848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileDc3Rpk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22458/devtools/browser/021e9920-9a3d-4901-a976-ca02453782f8
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675520322172	Marionette	INFO	Stopped listening on port 22465
+Dynamically enable window occlusion 1
+1675520705197	geckodriver	INFO	Listening on 127.0.0.1:22536
+1675520708241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22537" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileS7uv16"
+1675520708444	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520708448	Marionette	INFO	Listening on port 22544
+Read port: 22544
+WebDriver BiDi listening on ws://127.0.0.1:22537
+1675520708521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileS7uv16\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22537/devtools/browser/6e4309ea-72ea-4fcd-8add-6a362be73942
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675520712063	Marionette	INFO	Stopped listening on port 22544
+Dynamically enable window occlusion 1
+1675520747016	geckodriver	INFO	Listening on 127.0.0.1:22598
+1675520750059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22599" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilekQ5kDT"
+1675520750275	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520750278	Marionette	INFO	Listening on port 22606
+Read port: 22606
+WebDriver BiDi listening on ws://127.0.0.1:22599
+1675520750355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilekQ5kDT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22599/devtools/browser/327869a8-ad96-41a2-9c95-35d730e91ea9
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675520969284	geckodriver	INFO	Listening on 127.0.0.1:22684
+1675520972329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilelKBuwJ"
+1675520972537	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520972540	Marionette	INFO	Listening on port 22692
+Read port: 22692
+WebDriver BiDi listening on ws://127.0.0.1:22685
+1675520972613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilelKBuwJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22685/devtools/browser/867067b1-ff42-49f3-9013-8a45346d6233
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675520976053	Marionette	INFO	Stopped listening on port 22692
+Dynamically enable window occlusion 1
+1675520987966	geckodriver	INFO	Listening on 127.0.0.1:22745
+1675520990999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22746" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilei5hc2D"
+1675520991215	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675520991219	Marionette	INFO	Listening on port 22753
+WebDriver BiDi listening on ws://127.0.0.1:22746
+Read port: 22753
+1675520991412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilei5hc2D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22746/devtools/browser/a155cb5d-6abc-4afd-8f6d-3154f9e69cec
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675520994192	Marionette	INFO	Stopped listening on port 22753
+Dynamically enable window occlusion 1
+1675521004132	geckodriver	INFO	Listening on 127.0.0.1:22803
+1675521007166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22804" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilet9Ddlc"
+1675521007373	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521007377	Marionette	INFO	Listening on port 22811
+Read port: 22811
+WebDriver BiDi listening on ws://127.0.0.1:22804
+1675521007452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilet9Ddlc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22804/devtools/browser/f0529526-1fbd-4e14-ab5b-01183d06977c
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675521010616	Marionette	INFO	Stopped listening on port 22811
+Dynamically enable window occlusion 1
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1675521115408	geckodriver	INFO	Listening on 127.0.0.1:22867
+1675521118442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22868" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileTaiXl3"
+1675521118648	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521118651	Marionette	INFO	Listening on port 22875
+Read port: 22875
+WebDriver BiDi listening on ws://127.0.0.1:22868
+1675521118729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileTaiXl3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22868/devtools/browser/1cdf6f9b-b3ff-449b-ad65-84733a22d851
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675521122039	Marionette	INFO	Stopped listening on port 22875
+Dynamically enable window occlusion 1
+1675521136047	geckodriver	INFO	Listening on 127.0.0.1:22927
+1675521139072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileO9DSmU"
+1675521139300	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521139303	Marionette	INFO	Listening on port 22935
+WebDriver BiDi listening on ws://127.0.0.1:22928
+Read port: 22935
+1675521139530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileO9DSmU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22928/devtools/browser/4e086c22-4116-4bc6-b866-4879388207c5
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675521172962	Marionette	INFO	Stopped listening on port 22935
+Dynamically enable window occlusion 1
+1675521206370	geckodriver	INFO	Listening on 127.0.0.1:23001
+1675521209420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiles8UQaZ"
+1675521209630	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521209634	Marionette	INFO	Listening on port 23009
+Read port: 23009
+WebDriver BiDi listening on ws://127.0.0.1:23002
+1675521209709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiles8UQaZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23002/devtools/browser/dccdac2a-fc12-4b92-b318-d76407a14965
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, 1675521391505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileHWuI63"
+1675521391718	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521391721	Marionette	INFO	Listening on port 23106
+Read port: 23106
+WebDriver BiDi listening on ws://127.0.0.1:23099
+1675521391795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileHWuI63\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23099/devtools/browser/c01f7ac2-ee63-4464-9321-dd64a30a2863
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675521536930	geckodriver	INFO	Listening on 127.0.0.1:23191
+1675521539963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileMhX53t"
+1675521540171	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521540174	Marionette	INFO	Listening on port 23199
+Read port: 23199
+WebDriver BiDi listening on ws://127.0.0.1:23192
+1675521540248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileMhX53t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23192/devtools/browser/24fcdb5c-2be4-4d75-ab32-96bde6426352
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675521909533	geckodriver	INFO	Listening on 127.0.0.1:23296
+1675521912582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileJ8FjRW"
+1675521912782	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521912786	Marionette	INFO	Listening on port 23304
+Read port: 23304
+WebDriver BiDi listening on ws://127.0.0.1:23297
+1675521912864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileJ8FjRW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23297/devtools/browser/c97a28c3-e317-48bd-a3dc-0c251639dceb
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675521916424	Marionette	INFO	Stopped listening on port 23304
+Dynamically enable window occlusion 1
+[Parent 39392, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675521922841	geckodriver	INFO	Listening on 127.0.0.1:23358
+1675521925884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23359" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileDi9QAr"
+1675521926084	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521926087	Marionette	INFO	Listening on port 23366
+Read port: 23366
+WebDriver BiDi listening on ws://127.0.0.1:23359
+1675521926157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileDi9QAr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23359/devtools/browser/ea4030be-d45d-46f3-acc7-03ff1cb28c37
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675521929307	Marionette	INFO	Stopped listening on port 23366
+Dynamically enable window occlusion 1
+1675521941905	geckodriver	INFO	Listening on 127.0.0.1:23420
+1675521944948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileGrLNdf"
+1675521945147	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675521945150	Marionette	INFO	Listening on port 23428
+Read port: 23428
+WebDriver BiDi listening on ws://127.0.0.1:23421
+1675521945221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileGrLNdf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23421/devtools/browser/41531b22-5c10-415f-9f57-c503788d8d20
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+[Parent 41280, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675522435646	geckodriver	INFO	Listening on 127.0.0.1:23551
+1675522438683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiledjAwQw"
+1675522438885	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675522438889	Marionette	INFO	Listening on port 23559
+Read port: 23559
+WebDriver BiDi listening on ws://127.0.0.1:23552
+1675522438960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiledjAwQw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23552/devtools/browser/dc9fea91-e5a0-4398-aef4-0e69c9979879
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675522599472	geckodriver	INFO	Listening on 127.0.0.1:23639
+1675522602498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23640" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileaxb4AO"
+1675522602700	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675522602703	Marionette	INFO	Listening on port 23647
+Read port: 23647
+WebDriver BiDi listening on ws://127.0.0.1:23640
+1675522602775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileaxb4AO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23640/devtools/browser/3bd6a28e-bc10-440f-aa30-5827b2474959
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.error: "Unable to find target with innerWindowId:8589934593"
+1675523334973	geckodriver	INFO	Listening on 127.0.0.1:23875
+1675523338012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23876" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile8pwOuU"
+1675523338216	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675523338219	Marionette	INFO	Listening on port 23883
+Read port: 23883
+WebDriver BiDi listening on ws://127.0.0.1:23876
+1675523338291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile8pwOuU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23876/devtools/browser/ca7f6722-414c-4ee0-b9fe-65d87660071f
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1675523405876	geckodriver	INFO	Listening on 127.0.0.1:23964
+1675523408933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile2bSZAB"
+1675523409136	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675523409139	Marionette	INFO	Listening on port 23972
+Read port: 23972
+WebDriver BiDi listening on ws://127.0.0.1:23965
+1675523409210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile2bSZAB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23965/devtools/browser/fa293d77-c1c5-4a76-8ffc-06cc2d4d8782
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))

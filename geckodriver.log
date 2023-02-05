@@ -1138,3 +1138,20 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript error: , line 0: uncaught exception: Object
 1675634213315	Marionette	INFO	Stopped listening on port 15385
 Dynamically enable window occlusion 1
+1675634521544	geckodriver	INFO	Listening on 127.0.0.1:15480
+1675634524586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilem2L2g2"
+1675634524789	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675634524792	Marionette	INFO	Listening on port 15488
+Read port: 15488
+WebDriver BiDi listening on ws://127.0.0.1:15481
+1675634524869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilem2L2g2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:15481/devtools/browser/ed72f7a0-9f12-4e92-8fb7-68f29a90085b
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675634529579	Marionette	INFO	Stopped listening on port 15488
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+[Parent 4312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777

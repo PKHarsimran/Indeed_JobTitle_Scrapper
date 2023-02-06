@@ -19,7 +19,7 @@ pip install selenium beautifulsoup4
 
 bash
 
-git clone https://github.com/[username]/indeed-job-scraper
+git clone https://github.com/PKHarsimran/indeed-job-scraper
 
     Navigate to the directory:
 

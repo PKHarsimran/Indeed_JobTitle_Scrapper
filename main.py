@@ -1,59 +1,50 @@
-import click
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+import argparse
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
-@click.command()
-@click.option("--query", prompt="Enter search query")
-def main(query):
-    # Initialize a webdriver instance to open a web browser (Firefox in this case)
-    driver = webdriver.Firefox()
 
-    # Navigate to the Indeed website
+def extract_job_info(soup):
+    job_listings = soup.find_all("div", class_="job_seen_beacon")
+    for job in job_listings:
+        title = job.find("span", attrs={"id": lambda x: x and x.startswith("jobTitle-")})
+        title = title.text
+        company = job.find("span", class_="companyName").text
+        location = job.find("div", class_="companyLocation").text
+        print(f"{title} at {company} in {location}")
+
+
+def main(args):
+    # Initialize the specified webdriver instance
+    if args.webdriver == "firefox":
+        driver = webdriver.Firefox()
+    elif args.webdriver == "chrome":
+        driver = webdriver.Chrome()
+    else:
+        raise ValueError("Invalid webdriver type. Choose either 'firefox' or 'chrome'.")
+
     driver.get("https://www.indeed.com/")
 
-    # Wait for the search bar element to appear, and then enter the search query
-    # The WebDriverWait method is used to wait for a specific element to appear on the page
-    # The presence_of_element_located method is used to wait for an element to be present on the page
-    # The ID locator strategy is used to locate the search bar element
-    search_bar = WebDriverWait(driver, 40).until(EC.presence_of_element_located((By.ID, "text-input-what")))
+    search_bar = WebDriverWait(driver, 40).until(
+        EC.presence_of_element_located((By.ID, "text-input-what"))
+    )
+    search_bar.send_keys(args.search_query)
 
-    # Enter the search query into the search bar
-    search_bar.send_keys(query)
-
-    # Locate the search button and click it
-    # The CLASS_NAME locator strategy is used to locate the search button element
     search_button = driver.find_element(By.CLASS_NAME, "yosegi-InlineWhatWhere-primaryButton")
     search_button.click()
 
-    # Parse the HTML content of the page using Beautiful Soup
     soup = BeautifulSoup(driver.page_source, "html.parser")
+    extract_job_info(soup)
 
-    # Find all job listings on the page
-    # The find_all method is used to find all elements that match the specified criteria
-    # The class_ attribute is used to specify the CSS class name to search for
-    job_listings = soup.find_all("div", class_="job_seen_beacon")
-
-    # Loop through each job listing and extract relevant information
-    for job in job_listings:
-        # Extract the job title
-        # The find method is used to find the first element that matches the specified criteria
-        # The attrs attribute is used to specify the attributes to search for
-        # The lambda function is used to filter the elements based on the attribute value
-        title = job.find("span", attrs={"id": lambda x: x and x.startswith("jobTitle-")})
-        # Extract the text of the job title element
-        title = title.text
-        # Extract the company name
-        company = job.find("span", class_="companyName").text
-        # Extract the location
-        location = job.find("div", class_="companyLocation").text
-        # Print the job title, company name, and location
-        print(f"{title} at {company} in {location}")
-
-    # Close the webdriver instance and the web browser
     driver.quit()
 
+
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Scrape job information from Indeed.")
+    parser.add_argument("search_query", type=str, help="Search query to send to Indeed.")
+    parser.add_argument("webdriver", type=str, help="Type of webdriver to use.",
+                        choices=["firefox", "chrome"])
+    args = parser.parse_args()
+    main(args)

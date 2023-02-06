@@ -1,14 +1,13 @@
 import click
-@click.command()
-@click.option('--query', prompt='Enter search query:', help='The search query for the search bar.')
-def search_jobs(query):
-    # Import the necessary libraries
-    from selenium import webdriver
-    from selenium.webdriver.support.ui import WebDriverWait
-    from selenium.webdriver.support import expected_conditions as EC
-    from selenium.webdriver.common.by import By
-    from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
 
+@click.command()
+@click.option("--query", prompt="Enter search query")
+def main(query):
     # Initialize a webdriver instance to open a web browser (Firefox in this case)
     driver = webdriver.Firefox()
 
@@ -55,3 +54,6 @@ def search_jobs(query):
 
     # Close the webdriver instance and the web browser
     driver.quit()
+
+if __name__ == "__main__":
+    main()

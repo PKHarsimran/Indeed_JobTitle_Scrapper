@@ -18,7 +18,7 @@ driver.get("https://www.indeed.com/")
 search_bar = WebDriverWait(driver, 40).until(EC.presence_of_element_located((By.ID, "text-input-what")))
 
 # Enter the search query into the search bar
-search_bar.send_keys("Software Engineer")
+search_bar.send_keys("Photography assistance")
 
 # Locate the search button and click it
 # The CLASS_NAME locator strategy is used to locate the search button element

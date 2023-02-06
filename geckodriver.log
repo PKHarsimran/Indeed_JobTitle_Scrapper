@@ -1155,3 +1155,46 @@ JavaScript error: , line 0: uncaught exception: Object
 Dynamically enable window occlusion 1
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
 [Parent 4312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675641402858	geckodriver	INFO	Listening on 127.0.0.1:1248
+1675641405905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilewoEBqq"
+1675641406122	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675641406126	Marionette	INFO	Listening on port 1258
+WebDriver BiDi listening on ws://127.0.0.1:1249
+Read port: 1258
+1675641406321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilewoEBqq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1249/devtools/browser/622b3b6a-218a-4030-822f-8fb270202074
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675641411418	Marionette	INFO	Stopped listening on port 1258
+Dynamically enable window occlusion 1
+1675641771949	geckodriver	INFO	Listening on 127.0.0.1:1235
+1675641774967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile6c4QTb"
+1675641775186	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675641775189	Marionette	INFO	Listening on port 1249
+Read port: 1249
+WebDriver BiDi listening on ws://127.0.0.1:1237
+1675641775264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile6c4QTb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1237/devtools/browser/94cc2ea6-78a1-4bfe-9c3e-0fd374d108b0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675641791402	Marionette	INFO	Stopped listening on port 1249
+Dynamically enable window occlusion 1
+1675641824490	geckodriver	INFO	Listening on 127.0.0.1:32487
+1675641827530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32488" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile1qWxEO"
+1675641827751	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675641827754	Marionette	INFO	Listening on port 32495
+WebDriver BiDi listening on ws://127.0.0.1:32488
+Read port: 32495
+1675641827951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile1qWxEO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32488/devtools/browser/47cb9314-ce08-4de9-9501-4cbbeca0654a
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675641832601	Marionette	INFO	Stopped listening on port 32495
+Dynamically enable window occlusion 1

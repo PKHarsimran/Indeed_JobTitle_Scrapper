@@ -1,49 +1,16 @@
-Indeed Job Scraper
+# Job Scraper
 
-This code scrapes job information from Indeed.com, a popular job search website.
-Requirements
+A web scraping script that retrieves information about software engineer job postings from [Indeed.com](https://www.indeed.com/).
 
-    Selenium
-    Beautiful Soup
-    geckodriver
+## Getting Started
 
-Usage
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-    Install the required packages using pip:
+### Prerequisites
 
-pip install selenium beautifulsoup4
+You need to have the following libraries installed:
 
-    Download the latest version of geckodriver and place it in your PATH, e.g., place it in /usr/bin or /usr/local/bin.
+- Selenium
+- Beautiful Soup
+- Geckodriver (Firefox webdriver)
 
-    Clone this repository:
-
-bash
-
-git clone https://github.com/PKHarsimran/Indeed_JobTitle_Scrapper
-
-    Navigate to the directory:
-
-bash
-
-cd indeed-job-scraper
-
-    Run the script using the following command:
-
-python indeed-scraper.py
-
-    The script will open a firefox window and scrape job information from Indeed.com. The extracted information will be printed in the console.
-
-Output
-
-The script outputs the following information for each job listing on the page:
-
-    Job title
-    Company name
-    Location
-
-Limitations
-
-The code is limited to the first page of job listings on Indeed.com. To scrape additional pages, you will need to modify the code.
-License
-
-This project is licensed under the MIT License.

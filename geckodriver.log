@@ -898,12 +898,12 @@ console.error: "Unable to find target with innerWindowId:6442450945"
 console.error: "Unable to find target with innerWindowId:6442450945"
 console.error: "Unable to find target with innerWindowId:6442450945"
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-amically enable window occlusion 0
-1675629380168	Marionette	INFO	Listening on port 22547
-WebDriver BiDi listening on ws://127.0.0.1:22540
-Read port: 22547
-1675629380374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileZeoo3j\\search.json.mozlz4", (void 0)))
+1675654901116	Marionette	INFO	Stopped listening on port 22395
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+\AppData\\Local\\Temp\\rust_mozprofileZeoo3j\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:22540/devtools/browser/ee782ddc-160b-4586-8889-64ac984ede67
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
@@ -1198,3 +1198,33 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript error: , line 0: uncaught exception: Object
 1675641832601	Marionette	INFO	Stopped listening on port 32495
 Dynamically enable window occlusion 1
+1675647383076	geckodriver	INFO	Listening on 127.0.0.1:1304
+1675647386120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1308" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiledDMBC2"
+1675647386449	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675647386454	Marionette	INFO	Listening on port 1316
+Read port: 1316
+WebDriver BiDi listening on ws://127.0.0.1:1308
+1675647386635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiledDMBC2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1308/devtools/browser/1616bb8b-e720-43f6-a949-e3760ef1c0e1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675647399276	Marionette	INFO	Stopped listening on port 1316
+Dynamically enable window occlusion 1
+[Parent 26188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675647403548	geckodriver	INFO	Listening on 127.0.0.1:1599
+1675647406576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1600" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile7uBq9j"
+1675647406838	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675647406842	Marionette	INFO	Listening on port 1608
+Read port: 1608
+WebDriver BiDi listening on ws://127.0.0.1:1600
+1675647406948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofile7uBq9j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1600/devtools/browser/0c1de7a8-803a-4ddf-91d9-a8f1551e30db
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675647411780	Marionette	INFO	Stopped listening on port 1608
+Dynamically enable window occlusion 1
+[Parent 26660, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777

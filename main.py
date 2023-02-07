@@ -49,6 +49,17 @@ def scrape_indeed(driver, search_query, search_location):
     search_button.click()
     # Parse the page source into a BeautifulSoup object
     soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    #Check to see if there more results
+
+    Navigation_bar_present = False
+    try:
+        Navigation_bar = WebDriverWait(driver, 40).until(
+            EC.presence_of_element_located((By.XPATH, '//nav[@role="navigation"]')))
+        Navigation_bar_present = True
+    except:
+        Navigation_bar_present = False
+
     # Find all job listings on the page
     job_listings = soup.find_all("div", class_="job_seen_beacon")
 

@@ -1228,3 +1228,48 @@ JavaScript error: , line 0: uncaught exception: Object
 1675647411780	Marionette	INFO	Stopped listening on port 1608
 Dynamically enable window occlusion 1
 [Parent 26660, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675726265974	geckodriver	INFO	Listening on 127.0.0.1:22634
+1675726269017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilePsW0WV"
+1675726269237	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675726269241	Marionette	INFO	Listening on port 22644
+WebDriver BiDi listening on ws://127.0.0.1:22635
+Read port: 22644
+1675726269446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofilePsW0WV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:22635/devtools/browser/54c837d6-e74e-46c0-aa69-bb4e82eb0b0f
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675726274248	Marionette	INFO	Stopped listening on port 22644
+Dynamically enable window occlusion 1
+1675729518099	geckodriver	INFO	Listening on 127.0.0.1:1045
+1675729521134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1046" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileR2SgUX"
+1675729521365	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675729521369	Marionette	INFO	Listening on port 1053
+WebDriver BiDi listening on ws://127.0.0.1:1046
+Read port: 1053
+1675729521573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofileR2SgUX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1046/devtools/browser/a9f9d00c-4e9d-4a10-a5c9-8b5b354b530d
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675729527623	Marionette	INFO	Stopped listening on port 1053
+Dynamically enable window occlusion 1
+1675729557986	geckodriver	INFO	Listening on 127.0.0.1:1111
+1675729561021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1112" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiletNeXrP"
+1675729561245	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675729561248	Marionette	INFO	Listening on port 1119
+WebDriver BiDi listening on ws://127.0.0.1:1112
+Read port: 1119
+1675729561454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\harsi\\AppData\\Local\\Temp\\rust_mozprofiletNeXrP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1112/devtools/browser/3a819c5e-2404-40d0-8cba-a4b3ae4d8ccc
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ca.indeed.com."
+JavaScript error: , line 0: uncaught exception: Object
+1675729573337	Marionette	INFO	Stopped listening on port 1119
+Dynamically enable window occlusion 1
